@@ -58,9 +58,37 @@ ul {
 
 .Website-info button {
     margin-right: 330px;
+    background-color: #3882F8;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px;
 }
 
 #orange-cat {
     width: 150px;
     height: auto;
+}
+
+.Products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-title {
+    display: flex;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.four-products > div {
+    display: flex;
+}
+
+.supra {
+    height:auto;
+    width: 300px;
 }
