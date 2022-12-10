@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-    margin-left: 40px;
+    margin-left: 150px;
     font-weight: bold;
 }
 
@@ -23,10 +23,41 @@ ul {
     display: flex;
     gap: 12px;
     margin: 0;
+    margin-right: 150px;
 }
 
 .Sign-up {
-    display: ;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.Website-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.awesome {
+    font-weight: bold;
+    font-size: 48px;
+    margin-right: 40px;
+    overflow-wrap: break-word;
+    width: 60%;
+}
+
+.Website-info .text {
+    width: 300px;
+    margin-right: 90px;
+    padding: 10px;
+}
+
+.Website-info button {
+    margin-right: 330px;
 }
 
 #orange-cat {
