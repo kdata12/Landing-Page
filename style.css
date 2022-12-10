@@ -89,6 +89,17 @@ ul {
 }
 
 .supra {
-    height:auto;
+    height: auto;
     width: 300px;
 }
+
+.skyline {
+    height: auto;
+    width: 250px;
+}
+
+.workout {
+    height: auto;
+    width: 300px;
+}
+
